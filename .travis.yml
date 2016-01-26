@@ -12,7 +12,6 @@ before_script:
   - mysql -e 'create database global_uid_test_id_server_2;'
 gemfile:
   - gemfiles/rails3.2.gemfile
-  - gemfiles/rails4.0.gemfile
   - gemfiles/rails4.1.gemfile
   - gemfiles/rails4.2.gemfile
   - gemfiles/rails5.0.gemfile
